@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 12</title>
+</head>
+<body>
+    <form action="index.html" method="post" enctype="multipart/form-data">
+
+
+        <label for="username">username</label>
+        <input placeholder="enter username" type="text" id="username" maxlength="15" minlength="6" required><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" placeholder=" enter password" minlength="8" maxlength="15" required><br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" required placeholder="abd@gmail.com"><br>
+
+        <label for="phone">phone-no</label>
+        <input type="tel" name="phone" id="phone" placeholder="032-323-18421" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="bday">birthday</label>
+        <input type="date" name="date" id="bday"><br>
+
+        <label for="qauntity">Quantity</label>
+        <input type="number" id="quantity" max="99" min="0" value="1"><br>
+
+        <label for="Male">Male</label>
+        <input type="radio" name="radio" id="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="radio" id="female"><br>
+
+        <label for="payment">payment</label>
+        <select name="payment id="payment>
+            <option value="visa">visa</option>
+            <option value="paypal">paypal</option>
+            <option value="paypak">paypak</option>
+        </select><br>
+
+        <label for="checkbox">checkbox</label>
+        <input type="checkbox" name="checkbox id="checkbox"><br>
+
+        <label for="comment">comment</label>
+        <textarea name="comment id="comment" cols="25" rows="3" placeholder="enter you commnet"></textarea>
+
+        <label for="file">file</label>
+        <input type="file" name="file" id="file" accept="image/png,image/jpeg"><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <input type="submit" value="submit"><br>
+        <input type="reset" value="reset">
+    </form>
+
+</body>
+</html>
